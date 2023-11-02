@@ -58,7 +58,7 @@ type FormValues = {
 
 
 
-export function FirstSection() {
+export default function FirstSection() {
 
     const [loading, setLoading] = useState(false);
     const [submitted, setSubmitted] = useState(false);

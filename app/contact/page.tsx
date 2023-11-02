@@ -1,4 +1,4 @@
-import {FirstSection} from "./FirstSection/page";
+import FirstSection from "./FirstSection/page";
 import Navbar from "./Navbar/navbar";
 import Footer from "./footer/page";
 
