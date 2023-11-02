@@ -24,11 +24,10 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Toast } from "@/components/ui/toast";
+
 import { useToast } from "@/components/ui/use-toast";
 import { Textarea } from "@/components/ui/textarea";
-import { CheckCircle } from "lucide-react";
-import { Sumana } from "next/font/google";
+
 
 const FormSchema = z.object({
   first_name: z.string(),
