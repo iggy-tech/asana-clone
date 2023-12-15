@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[878],{2898:function(e,r,t){"use strict";t.d(r,{Z:function(){return createLucideIcon}});var o=t(2265),n={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};let toKebabCase=e=>e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),createLucideIcon=(e,r)=>{let t=(0,o.forwardRef)(({color:t="currentColor",size:s=24,strokeWidth:i=2,absoluteStrokeWidth:c,children:u,...a},l)=>(0,o.createElement)("svg",{ref:l,...n,width:s,height:s,stroke:t,strokeWidth:c?24*Number(i)/Number(s):i,className:`lucide lucide-${toKebabCase(e)}`,...a},[...r.map(([e,r])=>(0,o.createElement)(e,r)),...(Array.isArray(u)?u:[u])||[]]));return t.displayName=`${e}`,t}},6521:function(e,r,t){Promise.resolve().then(t.bind(t,1815))},622:function(e,r,t){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var o=t(2265),n=Symbol.for("react.element"),s=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),i=o.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,c={key:!0,ref:!0,__self:!0,__source:!0};function q(e,r,t){var o,u={},a=null,l=null;for(o in void 0!==t&&(a=""+t),void 0!==r.key&&(a=""+r.key),void 0!==r.ref&&(l=r.ref),r)s.call(r,o)&&!c.hasOwnProperty(o)&&(u[o]=r[o]);if(e&&e.defaultProps)for(o in r=e.defaultProps)void 0===u[o]&&(u[o]=r[o]);return{$$typeof:n,type:e,key:a,ref:l,props:u,_owner:i.current}}r.jsx=q,r.jsxs=q},7437:function(e,r,t){"use strict";e.exports=t(622)}},function(e){e.O(0,[815,971,472,744],function(){return e(e.s=6521)}),_N_E=e.O()}]);
